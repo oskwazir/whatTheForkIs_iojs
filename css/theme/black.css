@@ -15,12 +15,6 @@ body {
   background-color: #222;
   font-variant-ligatures: common-ligatures; }
 
-.uppercase {
-  text-transform: uppercase; }
-
-.lowercase {
-  text-transform: lowercase; }
-
 .reveal {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-size: 38px;
@@ -226,16 +220,16 @@ body {
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls div.navigate-left, .reveal .controls div.navigate-left.enabled {
-  border-right-color: #42affa; }
+  border-right-color: #13DAEC; }
 
 .reveal .controls div.navigate-right, .reveal .controls div.navigate-right.enabled {
-  border-left-color: #42affa; }
+  border-left-color: #13DAEC; }
 
 .reveal .controls div.navigate-up, .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #42affa; }
+  border-bottom-color: #13DAEC; }
 
 .reveal .controls div.navigate-down, .reveal .controls div.navigate-down.enabled {
-  border-top-color: #42affa; }
+  border-top-color: #13DAEC; }
 
 .reveal .controls div.navigate-left.enabled:hover {
   border-right-color: #8dcffc; }
@@ -266,3 +260,15 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #42affa; }
+
+/*
+Custom styles
+*/
+.reveal a.pop {
+  color: #3B86B2; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.lowercase {
+  text-transform: lowercase; }

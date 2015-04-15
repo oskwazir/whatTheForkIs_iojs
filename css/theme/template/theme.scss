@@ -10,14 +10,6 @@ body {
 	font-variant-ligatures:common-ligatures;
 }
 
-.uppercase{
-	text-transform: uppercase;
-}
-
-.lowercase{
-	text-transform: lowercase;
-}
-
 .reveal {
 	font-family: $mainFont;
 	font-size: $mainFontSize;
@@ -288,22 +280,22 @@ body {
 
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-	border-right-color: $linkColor;
+	border-right-color: $controlColor;
 }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-	border-left-color: $linkColor;
+	border-left-color: $controlColor;
 }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-	border-bottom-color: $linkColor;
+	border-bottom-color: $controlColor;
 }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-	border-top-color: $linkColor;
+	border-top-color: $controlColor;
 }
 
 .reveal .controls div.navigate-left.enabled:hover {
@@ -345,4 +337,19 @@ body {
   color: $linkColor;
 }
 
+/*
+Custom styles
+*/
+
+.reveal a.pop{
+	color:#3B86B2;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.lowercase{
+	text-transform: lowercase;
+}
 
