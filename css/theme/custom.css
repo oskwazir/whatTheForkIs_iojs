@@ -38,8 +38,8 @@ body {
   font-family: "ratio-display", "Avenir Next Condensed", Helvetica, sans-serif;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  letter-spacing: normal;
+  text-transform: none;
   text-shadow: none;
   word-wrap: break-word; }
 
