@@ -5,7 +5,9 @@ A presentation for the TucsonJS Meetup.
 Notes
 
 ## First there was node.js
-Created in 2009
+node.js was created in 2009 by Ryan Dahl
+gave us JavaScript everywhere ~ robots ~ servers ~ tooling
+open source and led by Benevolent Dictator for Life
 Sponsored by Joyent
 
 ##node intentionally moving slowly
@@ -13,14 +15,27 @@ fell behind V8 and libuv supported versions
 
 ##features not rolling in fast enough
 
+##node.js responds 
+2015.02.06, Version 0.12.0 
+* npm: Upgrade to 2.5.1
+* mdb_v8: update for v0.12 
 
 ##libuv
 "libuv turns out to be a rather useful library itself: a BSD-licensed, minimal, high-performance, cross-platform networking library.":http://blog.nodejs.org/2011/09/23/libuv-status-report/
 
 
 ##V8
+`node -e 'console.log(process.versions.v8);'`
 http://omahaproxy.appspot.com/
+Stable:4.2.77.14
+iojs-1.8.1: 4.1.0.27
+nodejs-v0.12.2: 3.28.73
+nodejs-v0.10.38: 3.14.5.9
 
+#libuv
+nodejs-v0.12.2: 1.4.2-node1
+nodejs-v0.10.38: 0.10.36
+iojs-1.8.1: 1.4.2
 
 ##io.js what you need to know
 https://gist.github.com/maxogden/d96123138522c84cdb25
@@ -34,7 +49,11 @@ Mikeal Rogers [On Corporate Ownership of Open Source](https://medium.com/@mikeal
 > can *__any__* company be trusted with the ownership of a community driven open source project? And the answer I’ve finally come to. *No*.
 
 ##reconciliation
+3-6 months based on Node.js Foundation Development Policy Call (2015-04-13) 
 Diffing io.js and the Node.js Foundation https://github.com/iojs/io.js/issues/1416
+
+##LTS
+
 
 So are io.js and Node.js going to merge?
 That has not been decided. What we're trying to do here is figure out what that would actually look like and push it in a direction that is acceptable to everyone.

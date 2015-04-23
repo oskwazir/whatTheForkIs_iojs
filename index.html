@@ -53,36 +53,149 @@
 					<h2>first there was <span class="lowercase">node.js</span></h2>
 					<ul>
 						<li>released in 2009</li>
-						<li>sponsored by Joyent</li>
+						<li>cross platform runtime</li>
+						<li>gave us JavaScript everywhere</li>
+						<li>governed by Joyent</li>
+						<li>led by Benevolent Dictator (for life-ish)</li>
 					</ul>
 				</section>
 
 				<section data-background="#111">
-				<h2>waiting for <span class="lowercase">node.js</span> v1.0</h2>
-					<blockquote cite="http://readwrite.com/2014/08/22/nodejs-node-js-tj-fontaine-version-10">
-						&ldquo;We’re very cautious when we make changes and add features that we’re adding them for the right reasons and fixing the right things&rdquo;
-					</blockquote>
-					</ul>
-					
-				</section>
-
-				<section data-background="#111">
-				<h2><span class="lowercase">node.js</span> was moving slowly</h2>
-					<blockquote cite="http://wesleyio.tumblr.com/post/104637877991/node-js-is-forked-not-f-ed">
+				<h2><span class="lowercase">node.js</span> was progressing slowly</h2>
+					<quote cite="http://wesleyio.tumblr.com/post/104637877991/node-js-is-forked-not-f-ed">
 						&ldquo;Slow to create new releases, slow to accept PRs, slow to accept community members’ recommendations for new features&rdquo;
-					</blockquote>
+					</quote>
+					<img src="images/nodejs-releases.png"></img>
+				</section>
 
+				<section data-background="#111">
+					<h2>node forward started</h2>
+					<blockquote>&ldquo;Node Forward is anyone who wants to take responsibility for a problem and work together to fix it.&rdquo;</blockquote>
+					<p>sometime around August 2014</p>
 				</section>
 	
 				<section data-background="#111">
-					<h2>corporate ownership of open source</h2>
-					<blockquote cite="https://medium.com/@mikeal/on-corporate-ownership-of-open-source-786ebd15847e">
-						&ldquo;...can any company be trusted with the ownership of a community driven open source project? And the answer I’ve finally come to. No.&rdquo;
-					</blockquote>
+					<h2>private <span class="lowercase">node.js</span> fork turned into <span class="lowercase">io.js</span></h2>
+					<blockquote>&ldquo;A friendly fork of Node.js with an open governance model&rdquo;</blockquote>
+					<ul>
+						<li>public on Thanksgiving weekend 2014</li>
+						<li>uses open governance model</li>
+						<li>very easy for us to contribute to io.js projects</li>
+					</ul>
 				</section>
 
 				<section data-background="#111">
-					<h2><span class="lowercase">node.js</span> was forked and <span class="lowercase">io.js</span> started</h2>
+					<h2>the technical committee</h2>
+					<p>has final authority over io.js including</p>
+					<ul>
+					<li>Technical direction</li>
+  <li>Project governance and process</li>
+  <li>Contribution policy</li>
+  <li>GitHub repository hosting</li>
+  <li>Conduct guidelines</li>
+  <li>Maintaining the list of additional Collaborators
+					</li></ul>
+				</section>
+
+				<section data-background="#111">
+					<h2>core team behind <span class="lowercase">io.js</span></h2>
+					<ul>
+						<li>Isaac Z. Schlueter (TC)</li>
+						<li>Fedor Indutny (TC)</li>
+						<li>Rod Vagg (TC)</li>
+						<li>Ben Noordhuis (TC)</li>
+						<li>Bert Belder (TC)</li>
+						<li>Trevor Norris (TC)</li>
+						<li>Chris Dickinson (TC)</li>
+						<li>Jeremiah Senkpiel (TC)</li>
+						<li>and 21 other non-TC contributors</li>
+					</ul>
+				</section>
+
+				<section data-background="#111">
+					<h2><span class="lowercase">io.js</span> impact on you</h2>
+					<ul>
+						<li>faster and predictable release cycles</li>
+						<li>rapid updates to dependencies (V8 and libuv)</li>
+						<li>ES6: let, const, collections, generators, symbols, promises, template strings and new string methods</li>
+						<li>Streams 3: API slightly less surprising for humans and faster for computers</li>
+						<li>a lot of other stuff that you can see in changelogs</li>
+					</ul>
+				</section>
+
+				<section data-background="#111">
+					<h2><span class="lowercase">io.js</span> impact on your computer</h2>
+					<ul>
+						<li>works with npm</li>
+						<li>because the path to the node binary is a major dependency, iojs redirects that path to it's own path</li>
+						<li>I prefer to use nvm to manage io.js and node.js installs</li>
+					</ul>
+				</section>
+
+				<section data-background="#111">
+					<h2>did <span class="lowercase">node.js</span> close the gap on io.js</h2>
+					<table>
+						<thead>
+							<tr>
+								<th></th>
+								<th>version</th>
+								<th>V8</th>
+								<th>libuv</th>
+								<th>ES6</th>
+								<th>governance</th>	
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>node.js</td>
+								<td>v0.12.2</td>
+								<td>3.28.73</td>
+								<td>1.4.2-node1</td>
+								<td>23%</td>
+								<td>corporate</td>
+							</tr>
+							<tr>
+								<td>io.js</td>
+								<td>v1.8.1</td>
+								<td>4.1.0.27</td>
+								<td>1.4.2</td>
+								<td>41%</td>
+								<td>open</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+
+
+				<section data-background="#111">
+					<h2><span class="lowercase">io.js</span> has gained a lot of momentum</h2>
+					<p>about one release every 6 days</p>
+					<p>io.js core contributions</p>
+					<img width='700px' src="images/iojs-contributors.png"></img>
+					<p><span class="lowercase">node.js</span> core contributions</p>
+					<img width='700px' src="images/node-contributors.png"></img>
+				</section>
+
+
+
+				<section data-background="#111">
+					<h2>reconciliation</h2>
+					<p>There are now plans to bring io.js and node.js back together. A lot of work needs to be done to merge the governance model, code and release process. Maybe within six months or less. It's all kinda boring to listen too...zzzzzz</p>
+				</section>
+
+				<section data-background="#111">
+					<h2>participation</h2>
+					<p>go to <a href="https://github.com/iojs">the io.js org site</a>  and see if there are any discussions or issues you feel like you could
+					participate in. At least download io.js and make sure any code you wrote works with it.</p>
+				</section>
+
+				<section data-background="#111">
+					<h2>is io.js hipster enough?</h2>
+					<h3>not anymore :(</h3>
+				</section>
+
+				<section data-background="#111">
+					<h2>questions?</h2>
 				</section>
 
 			</div>
