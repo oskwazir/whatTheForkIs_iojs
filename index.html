@@ -42,14 +42,14 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section data-background="#111">
+				<section data-background="#1A272F">
 					<h1 class="lowercase">WHAT THE FORK IS <span class="lowercase">io.js</span></h1>
 					<p>
 						<small>Created by <a class="pop" href="http://github.com/thewazir">Omer Wazir</a> / <a class="pop" href="http://twitter.com/thewazir">@thewazir</a></small>
 					</p>
 				</section>
 
-				<section data-background="#111">
+				<section data-background="#1A272F">
 					<h2>first there was <span class="lowercase">node.js</span></h2>
 					<ul>
 						<li>released in 2009</li>
@@ -60,47 +60,50 @@
 					</ul>
 				</section>
 
-				<section data-background="#111">
+				<section data-background="#1A272F">
 				<h2><span class="lowercase">node.js</span> was progressing slowly</h2>
 					<quote cite="http://wesleyio.tumblr.com/post/104637877991/node-js-is-forked-not-f-ed">
 						&ldquo;Slow to create new releases, slow to accept PRs, slow to accept community members’ recommendations for new features&rdquo;
 					</quote>
-					<img src="images/nodejs-releases.png"></img>
+					<img width="450px" src="images/nodejs-releases.png"></img>
+					<p>node.js stable releases over 5 years</p>
 				</section>
 
-				<section data-background="#111">
+				<section data-background="#1A272F">
 					<h2>node forward started</h2>
 					<blockquote>&ldquo;Node Forward is anyone who wants to take responsibility for a problem and work together to fix it.&rdquo;</blockquote>
 					<p>sometime around August 2014</p>
 				</section>
 	
-				<section data-background="#111">
+				<section data-background="#1A272F">
 					<h2>private <span class="lowercase">node.js</span> fork turned into <span class="lowercase">io.js</span></h2>
 					<blockquote>&ldquo;A friendly fork of Node.js with an open governance model&rdquo;</blockquote>
 					<ul>
 						<li>public on Thanksgiving weekend 2014</li>
-						<li>uses open governance model</li>
+						<li>io.js org created on github</li>
+						<li>uses open governance model with consensus seeking</li>
 						<li>very easy for us to contribute to io.js projects</li>
 					</ul>
 				</section>
 
-				<section data-background="#111">
+				<section data-background="#1A272F">
 					<h2>the technical committee</h2>
 					<p>has final authority over io.js including</p>
 					<ul>
-					<li>Technical direction</li>
-  <li>Project governance and process</li>
-  <li>Contribution policy</li>
-  <li>GitHub repository hosting</li>
-  <li>Conduct guidelines</li>
-  <li>Maintaining the list of additional Collaborators
-					</li></ul>
+						<li>Technical direction</li>
+					  <li>Project governance and process</li>
+					  <li>Contribution policy</li>
+					  <li>GitHub repository hosting</li>
+					  <li>Conduct guidelines</li>
+					  <li>Maintaining the list of additional Collaborators</li>
+					</ul>
 				</section>
 
-				<section data-background="#111">
-					<h2>core team behind <span class="lowercase">io.js</span></h2>
+				<section data-background="#1A272F">
+					<h2>contributors behind <span class="lowercase">io.js</span></h2>
+					<p>29 people, 8 on the technical committee. All contributors on node.js who weren't working for Joyent work on io.js.</p>
 					<ul>
-						<li>Isaac Z. Schlueter (TC)</li>
+						<li>Isaac Z. Schlueter (TC - npm)</li>
 						<li>Fedor Indutny (TC)</li>
 						<li>Rod Vagg (TC)</li>
 						<li>Ben Noordhuis (TC)</li>
@@ -112,62 +115,65 @@
 					</ul>
 				</section>
 
-				<section data-background="#111">
+				<section data-background="#1A272F">
 					<h2><span class="lowercase">io.js</span> impact on you</h2>
 					<ul>
 						<li>faster and predictable release cycles</li>
 						<li>rapid updates to dependencies (V8 and libuv)</li>
 						<li>ES6: let, const, collections, generators, symbols, promises, template strings and new string methods</li>
-						<li>Streams 3: API slightly less surprising for humans and faster for computers</li>
-						<li>a lot of other stuff that you can see in changelogs</li>
+						<li>easier for you to contribute to io.js in various ways</li>
 					</ul>
 				</section>
 
-				<section data-background="#111">
+				<section data-background="#1A272F">
 					<h2><span class="lowercase">io.js</span> impact on your computer</h2>
 					<ul>
 						<li>works with npm</li>
 						<li>because the path to the node binary is a major dependency, iojs redirects that path to it's own path</li>
-						<li>I prefer to use nvm to manage io.js and node.js installs</li>
+						<li>I prefer to use <a href="https://github.com/creationix/nvm">nvm</a> to manage io.js and node.js installs</li>
 					</ul>
 				</section>
 
-				<section data-background="#111">
+				<section data-background="#1A272F">
 					<h2>did <span class="lowercase">node.js</span> close the gap on io.js</h2>
+					<quote>&ldquo;The JavaScript platform of the Future&rdquo;</quote>
+					<br />
+					<span>vs</span>
+					<br />
+					<quote>&ldquo;don’t get your hopes up&rdquo;</quote>
+					<br />
+					<br />
 					<table>
 						<thead>
 							<tr>
 								<th></th>
 								<th>version</th>
 								<th>V8</th>
-								<th>libuv</th>
 								<th>ES6</th>
 								<th>governance</th>	
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td>node.js</td>
-								<td>v0.12.2</td>
-								<td>3.28.73</td>
-								<td>1.4.2-node1</td>
-								<td>23%</td>
-								<td>corporate</td>
-							</tr>
-							<tr>
 								<td>io.js</td>
 								<td>v1.8.1</td>
 								<td>4.1.0.27</td>
-								<td>1.4.2</td>
 								<td>41%</td>
 								<td>open</td>
+							</tr>
+							<tr>
+								<td>node.js</td>
+								<td>v0.12.2</td>
+								<td>3.28.73</td>
+								<td>23%</td>
+								<td>corporate</td>
 							</tr>
 						</tbody>
 					</table>
 				</section>
 
 
-				<section data-background="#111">
+				<section data-background="#1A272F">
 					<h2><span class="lowercase">io.js</span> has gained a lot of momentum</h2>
 					<p>about one release every 6 days</p>
 					<p>io.js core contributions</p>
@@ -178,23 +184,23 @@
 
 
 
-				<section data-background="#111">
+				<section data-background="#1A272F">
 					<h2>reconciliation</h2>
 					<p>There are now plans to bring io.js and node.js back together. A lot of work needs to be done to merge the governance model, code and release process. Maybe within six months or less. It's all kinda boring to listen too...zzzzzz</p>
 				</section>
 
-				<section data-background="#111">
+				<section data-background="#1A272F">
 					<h2>participation</h2>
 					<p>go to <a href="https://github.com/iojs">the io.js org site</a>  and see if there are any discussions or issues you feel like you could
 					participate in. At least download io.js and make sure any code you wrote works with it.</p>
 				</section>
 
-				<section data-background="#111">
+				<section data-background="#1A272F">
 					<h2>is io.js hipster enough?</h2>
 					<h3>not anymore :(</h3>
 				</section>
 
-				<section data-background="#111">
+				<section data-background="#1A272F">
 					<h2>questions?</h2>
 				</section>
 

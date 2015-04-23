@@ -25,6 +25,7 @@ fell behind V8 and libuv supported versions
 
 
 ##V8
+chrome stable 4.2.77.14
 `node -e 'console.log(process.versions.v8);'`
 http://omahaproxy.appspot.com/
 Stable:4.2.77.14
